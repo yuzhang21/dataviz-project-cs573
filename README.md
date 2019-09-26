@@ -1,6 +1,6 @@
 
 # Data Visualization Project (CS573)
-#dataviz-project-templateA-proposal
+**dataviz-project-templateA-proposal**
 A project template version A with initial proposals for US Flu Surveillance Data Review. 
 
 ## Data
@@ -28,7 +28,7 @@ The following tasks and questions will drive the visualization and interaction d
 * Q3: When and where is the highest illness (flu) ratio state wise from 2015-2019 by week or month, year?
 * Q4: Which State has the most illness patient, or ratio?
 * Q5: What are the patient to health care professional (HCP) ratio across the states?
-*
+* Q6: Can the visualization allow user to narrow down their focus to individual states? 
 
 ## Sketches
 
