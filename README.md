@@ -1,17 +1,20 @@
 
 # Data Visualization Project (CS573)
-**dataviz-project-templateA-proposal**
-A project template version A with initial proposals for US Flu Surveillance Data Review. 
+**Refined dataviz-project-templateA-proposal**
+A project proposals for US Flu Surveillance Data Review. 
+*** History
+1. Created template version A with initial sketch materials
+2. Refined proposal with defined components, interaction and schedule 
 
 ## Data
 
-The data I propose to visualize for my project is a multi-year flu patient visits data collected by healthcare providers across the United States, who participated in the Influenza-like Illness Surveillance Network (ILINet). 
-[Weely U.S. Influenza Surveillance Reports](https://www.cdc.gov/flu/weekly/index.htm#ILIMap) are generated from the ILINet Program, which presents an [interactive FluView visualization](https://gis.cdc.gov/grasp/fluview/fluportaldashboard.html) of the data. 
+The data I propose to visualize for this project is a multi-year flu patient visits data collected by healthcare providers across the United States, who participated in the Influenza-like Illness Surveillance Network (ILINet). 
+[Weekly U.S. Influenza Surveillance Reports](https://www.cdc.gov/flu/weekly/index.htm#ILIMap) are generated from the ILINet Program, which presents an [interactive FluView visualization](https://gis.cdc.gov/grasp/fluview/fluportaldashboard.html) of the data. 
 In this proposal, I am going to present the data with more visualizations in order to best answer the questions about the data. 
 
 ## Prototypes
 
-I have created an overview of this data using color and sized dots, given the higher total visits corresponding to bigger circle size for each data point. It shows a clear pattern of peaks with big circle sizes in Feburary and December period for multiple-years of data. 
+I have created an overview of this data using color and sized dots, given the higher total visits corresponding to bigger circle size for each data point. It shows a clear pattern of peaks with big circle sizes in February and December period for multiple-years of data. 
 
 [![image](https://user-images.githubusercontent.com/26355743/65399943-6d932d80-dd8d-11e9-9db8-9b305f729e50.png)](https://beta.vizhub.com/yuzhang21/53e4bb9a916a407cba5aa0a72e8ef17d)
 
@@ -47,8 +50,30 @@ The 2nd page proposes to group states into limited (5-10) groups so that the col
 The 3rd page proposes in the last plot to replace bar chart with line chart to display the trend of top states number changes over time. It helps to understand whether the conditions on those top states are getting better or worse. This page also proposes the interactive elements so that different data can be visualized and more detailed data are presented on demand. 
 
 
-## Open Questions
+## Open Questions and Answers Learned
 
-So far I am working on visualizting the data on the map and allow more complex logics to calculate the derived data to be visualized. D3 and React seems to be powerful tools that can achieve all of them but I need to learn those details to put things together. 
+### Technical Issues Addressed or Decisions Made
+* So far I am working on visualizing the data on the map and allow more complex logics to calculate the derived data to be visualized. D3 and React seems to be powerful tools that can achieve all of them but I need to learn those details to put things together. 
+* Avoid to use vega-lite and vega-lite-api given they may not be compatible or integrated easily.  
 
-Next step after data visualization is going to be the interaction of the interface. Some more calculations need to be triggered and to update the corresponding visualization. 
+### Remaining Issues to be Addressed
+* Next step after data visualization is going to be the interaction of the interface. 
+* Some more calculations need to be triggered and to update the corresponding visualization. 
+
+
+## Schecule of Deliberables
+In the following table, I classify and schedule the tasks into several components and steps:
+1. Choropleths map
+2. Different year line chart
+3. Top 10 bar chart for aggregation
+4. Top 10 line chart for trend
+5. Multi-view plot assembly
+6. Interactions among views
+7. Additional improvments
+
+|Category No.|Task No.|Action Item|Estd. Time (day)|Actu. Time (day)|Whether the task is challenging and how|
+|------|:------:|------:|---:|---:|---:|
+|1|1|Something|0.5|1.5|No|
+|1|2|Something|0.5|1.5|No|
+|7|1|Something|0.5|1.5|No|
+
