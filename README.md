@@ -65,7 +65,7 @@ The 3rd page proposes in the last plot to replace bar chart with line chart to d
 In this project, the following interactions with user are proposed. Only the first one is explained in details. Others are similar and relatively straight forward to understand. It is critical to maintain the consistency among them, therefore, the implementation could be more complex than the list below. 
 
 1. From chart, select a year, update map
-In time series chart, 5 lines with different colors are displayed indicating the average values on different year, i.e., 2015-2019.
+ *In time series chart, 5 lines with different colors are displayed indicating the average values on different year, i.e., 2015-2019.
 If user move the mouse cursor and hover on one of the line, a tooltip will show up to display the year on the line. When user click on the line, only data from that given year is selected/filtered, the map will display a different color for different states to reflect that. The top 10 states will also be calculated again and the bar chart will be updated accordingly. Since the top 10 states are changed, their trend plot will be updated accordingly as well.  
 2. From map, select a state, update chart
 3. Add a menu, select different data field
