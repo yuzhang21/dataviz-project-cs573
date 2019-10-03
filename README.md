@@ -65,7 +65,7 @@ The 3rd page proposes in the last plot to replace bar chart with line chart to d
 In this project, the following interactions with user are proposed. Only the first one is explained in details. Others are similar and relatively straight forward to understand. It is critical to maintain the consistency among them, therefore, the implementation could be more complex than the list below. 
 
  1. From chart, select a year, update map
-   * In time series chart, 5 lines with different colors are displayed indicating the average values on different year, i.e., 2015-2019.
+   In time series chart, 5 lines with different colors are displayed indicating the average values on different year, i.e., 2015-2019.
 If user move the mouse cursor and hover on one of the line, a tooltip will show up to display the year on the line. When user click on the line, only data from that given year is selected/filtered, the map will display a different color for different states to reflect that. The top 10 states will also be calculated again and the bar chart will be updated accordingly. Since the top 10 states are changed, their trend plot will be updated accordingly as well.  
  2. From map, select a state, update chart
  3. Add a menu, select different data field
@@ -80,9 +80,9 @@ If user move the mouse cursor and hover on one of the line, a tooltip will show 
 In the following table, I classify and schedule the tasks into several components and steps. There are total 4 weeks left for the project. Assuming I can work 4 days per week, the total working days are 16. So I can roughly distribute the 5 categories into 4 weeks as the following: 
  1. Choropleths map and legend, color choice (Wk 1)
  2. Other charts (Wk 1: 3 days)
-  * a. Different year line chart
-  * b. Top 10 bar chart for aggregation
-  * c. Top 10 line chart for trend
+  a. Different year line chart
+  b. Top 10 bar chart for aggregation
+  c. Top 10 line chart for trend
  3. Data Preparation, Filtering, Calculation, Grouping (Wk 2,3: 3+1=4 days)
  4. Multi-view plot assembly  (Wk 1,2: 1+1=2 days)
  5. Interactions among views  (Wk 3,4: 3+4=7 days)
