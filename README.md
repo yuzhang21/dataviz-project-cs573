@@ -2,9 +2,9 @@
 # Data Visualization Project (CS573)
 **Refined dataviz-project-templateA-proposal**
 A project proposals for US Flu Surveillance Data Review. 
-*** History
-1. Created template version A with initial sketch materials
-2. Refined proposal with defined components, interaction and schedule 
+### History
+1. (09/25)Created template version A with initial sketch materials
+2. (10/02)Refined proposal with defined components, interaction and schedule 
 
 ## Data
 
@@ -53,7 +53,7 @@ The 3rd page proposes in the last plot to replace bar chart with line chart to d
 ## Open Questions and Answers Learned
 
 ### Technical Issues Addressed or Decisions Made
-* So far I am working on visualizing the data on the map and allow more complex logics to calculate the derived data to be visualized. D3 and React seems to be powerful tools that can achieve all of them but I need to learn those details to put things together. 
+* So far I am working on visualizing the data on the map and allow more complex logics to calculate the derived data to be visualized. D3 and React seems to be powerful tools that can achieve all of them. I will need to learn more details to put things together. 
 * Avoid to use vega-lite and vega-lite-api given they may not be compatible or integrated easily.  
 
 ### Remaining Issues to be Addressed
@@ -73,7 +73,13 @@ In the following table, I classify and schedule the tasks into several component
 
 |Category No.|Task No.|Action Item|Estd. Time (day)|Actu. Time (day)|Whether the task is challenging and how|
 |------|:------:|------:|---:|---:|---:|
-|1|1|Something|0.5|1.5|No|
-|1|2|Something|0.5|1.5|No|
+|1|1|Map - Already show US map by states|0.5|1.5|No|
+|1|2|Display a value using choropleths map|0.5|1.5|No|
+|1|3|Show colorbar and legend on map|0.5|1.5|No|
+|2|1|Something|0.5|1.5|No|
+|2|2|Something|0.5|1.5|No|
+|2|3|Something|0.5|1.5|No|
+|2|1|Something|0.5|1.5|No|
+|2|2|Something|0.5|1.5|No|
 |7|1|Something|0.5|1.5|No|
 
