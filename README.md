@@ -82,13 +82,13 @@ c. Top 10 line chart for trend
 |C2|1|Line chart by years, show correct legend|0.5|0.5|No|
 |C2|2|Bar chart to show top 10 states|0.5|0.5|No|
 |C2|3|Line chart to show trend for top 10 states|0.5|0.5|No|
-|**C2**|**4**|**Total for C1 and C2**|**3.0**|**3.0**|**No**|
+|**C2**|**-**|**Total for C1 and C2**|**3.0**|**3.0**|**NA**|
 |C3|1|Data loading with multiple files|0.5|0.5|No|
 |C3|2|Derived data calculation like ratio|0.5|0.5|No|
 |C3|3|Data filtering based on interaction states|1.5|1.5|Yes|
 |C3|4|Filtering top 10 states data|1.5|1.5|Yes|
-**|C3|5|Total for C3|4.0|4.0|No|**
-**|C4|1|Put multiple (4) views together using D3|2.0|2.0|Yes, may need to explore the best way|**
+|**C3**|**-**|**Total for C3**|**4.0**|**4.0**|**NA**|
+|**C4**|**-**|**Put multiple (4) views together using D3**|**2.0**|**2.0**|**Yes, may need to explore the best way**|
 |C5|1|From chart, select a year, update map|0.5|0.5|No|
 |C5|2|From map, select a state, update chart|0.5|0.5|No|
 |C5|3|Add a menu, select different data field|0.5|0.5|No|
@@ -98,10 +98,10 @@ c. Top 10 line chart for trend
 |C5|7|From trend chart, select a year, update map for top 10 states and give year|1.5|1.5|Yes|
 |C5|8|From trend chart, deselect any year, update map for top 10 states for all years|1.5|1.5|Yes|
 |C5|9|Show tooltip when mouse hover lines, bars, or state on maps|1.0|1.0|No|
-**|C5|10|Total for C5|7.0|7.0|No|**
+|**C5**|**-**|**Total for C5**|**7.0**|**7.0**|**NA**|
 |C6|1|There are some more interactions can be defined, or blocked in this project|0.0|0.0|No|
 |C6|2|Expand one plot to the whole canvas and hide the rest. And toggle to bring back original views. |0.0|0.0|No|
 |C6|3|The flu season is centered in winter, so it would be really nice if the cycle starts from the week 40 and ends on week 39 in the next year. Should be easy to shift the data but need to worry about the legend changes which may not be trivial to do. So far the plot matches calendar year which is also useful.|0.0|0.0|No|
-**|C7|1|Total for all|16.0|16.0|No|**
+|**C7**|**-**|**Total for all**|**16.0**|**16.0**|**NA**|
 
 
