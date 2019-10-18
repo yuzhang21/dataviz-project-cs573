@@ -118,6 +118,6 @@ In the following table, I classify and schedule the tasks into several component
 |C6|1|There are some more interactions can be defined, or blocked in this project|0.0|0.0|No|
 |C6|2|Expand one plot to the whole canvas and hide the rest. And toggle to bring back original views. |0.0|0.0|No|
 |C6|3|The flu season is centered in winter, so it would be really nice if the cycle starts from the week 40 and ends on week 39 in the next year. Should be easy to shift the data but need to worry about the legend changes which may not be trivial to do. So far the plot matches calendar year which is also useful.|0.0|0.0|No|
-|**C7**|**-**|**Total for all**|**16.0**|**Remaining:8.0(3.5+0.8wk1)(4.7wk2)Total:**|**NA**|
+|**C7**|**-**|**Total for all**|**16.0**|**Remaining:8.0(3.5+0.8wk1)(4.7wk2)Total:17.0**|**NA**|
 
 
