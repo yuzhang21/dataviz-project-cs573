@@ -78,14 +78,14 @@ If user move the mouse cursor and hover on one of the line, a tooltip will show 
 
 ## Schedule of Deliverables
 In the following table, I classify and schedule the tasks into several components and steps. There are total 4 weeks left for the project. Assuming I can work 4 days per week, the total working days are 16. So I can roughly distribute the 5 categories into 4 weeks as the following: 
- 1. Choropleths map and legend, color choice (Wk 1)
- 2. Other charts (Wk 1: 3 days)
+ 1. Choropleths map and legend, color choice (Wk 1)**(Done by Wk 2)**
+ 2. Other charts (Wk 1: 3 days)**(Done by Wk 2)**
   + a. Different year line chart
   + b. Top 10 bar chart for aggregation
   + c. Top 10 line chart for trend
- 3. Data Preparation, Filtering, Calculation, Grouping (Wk 2,3: 3+1=4 days)
- 4. Multi-view plot assembly  (Wk 1,2: 1+1=2 days)
- 5. Interactions among views  (Wk 3,4: 3+4=7 days)
+ 3. Data Preparation, Filtering, Calculation, Grouping (Wk 2,3: 3+1=4 days)**(Done by Wk 2)**
+ 4. Multi-view plot assembly  (Wk 1,2: 1+1=2 days)**(Done by Wk 1)**
+ 5. Interactions among views  (Wk 3,4: 3+4=7 days) -- Will do mostly in Week 3 and polish in Week 4
  6. Future or additional improvements (N/A)
 
 |Cat. No.|Task No.|Action Item|Estd. Time (day)|Actu. Time (day)|Whether the task is challenging and how|
@@ -93,19 +93,19 @@ In the following table, I classify and schedule the tasks into several component
 |C1|1|Map - Already show US map by states|0.5|**D0.5wk1**|**Done**|
 |C1|2|Display a value using choropleths map|0.5|**D0.5wk1**|**Done**|
 |C1|3|Show color bar and legend on map|0.5|0.5|No|
-|C2|1|Line chart by years, show correct legend|0.5|0.5|No|
-|C2|2|Bar chart to show top 10 states|0.5|T0.5(P0.3wk1)|Partial|
-|C2|3|Line chart to show trend for top 10 states|0.5|0.5|No|
+|C2|1|Line chart by years, show correct legend|0.5|**D1.0wk2**|**Done**|
+|C2|2|Bar chart to show top 10 states|0.5|**T0.5(P0.3wk1)(P0.5wk2)**|**Done**|
+|C2|3|Line chart to show trend for top 10 states|0.5|**D0.5wk2**|**Done**|
 |**C2**|**-**|**Total for C1 and C2**|**3.0**|**T3.0(P1.3wk1)**|**NA**|
 |C3|1|Data loading with multiple files|0.5|**D0.2wk1**|**Done**|
 |C3|2|Derived data calculation like ratio|0.5|0.5|No|
-|C3|3|Data filtering based on interaction states|1.5|1.5|Yes|
-|C3|4|Filtering top 10 states data|1.5|T1.5(P0.3wk1)|Yes,Partial|
+|C3|3|Data filtering based on all views|1.5|**D1.5wk2**|**Done**|
+|C3|4|Filtering top 10 states data|1.5|**T1.5(P0.3wk1)(P0.7wk2)|Yes,Partial|
 |**C3**|**-**|**Total for C3**|**4.0**|**T3.7(P0.5wk1)**|**NA**|
 |**C4**|**-**|**Put multiple (4) views together using D3**|**2.0**|**D1.5wk1**|**Done**|
 |C5|1|From chart, select a year, update map|0.5|0.5|No|
 |C5|2|From map, select a state, update chart|0.5|0.5|No|
-|C5|3|Add a menu, select different data field|0.5|T0.5(P0.2)|Partial|
+|C5|3|Add a menu, select different data field|0.5|**T0.5(P0.2wk1)(P0.5wk2)**|**Done**|
 |C5|4|Add a button, reset data to all years|0.5|0.5|No|
 |C5|5|From bar chart, select a state, update map|0.5|0.5|No|
 |C5|6|From bar chart, deselect any state, show top 10 states|0.5|0.5|No|
@@ -116,6 +116,6 @@ In the following table, I classify and schedule the tasks into several component
 |C6|1|There are some more interactions can be defined, or blocked in this project|0.0|0.0|No|
 |C6|2|Expand one plot to the whole canvas and hide the rest. And toggle to bring back original views. |0.0|0.0|No|
 |C6|3|The flu season is centered in winter, so it would be really nice if the cycle starts from the week 40 and ends on week 39 in the next year. Should be easy to shift the data but need to worry about the legend changes which may not be trivial to do. So far the plot matches calendar year which is also useful.|0.0|0.0|No|
-|**C7**|**-**|**Total for all**|**16.0**|**(0.8wk1)15.2(3.5wk1)**|**NA**|
+|**C7**|**-**|**Total for all**|**16.0**|**Remaining:8.0(3.5+0.8wk1)(4.7wk2)Total:**|**NA**|
 
 
