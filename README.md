@@ -6,6 +6,8 @@ A project proposal for US Flu Surveillance Data Review.
 #### History
   1. (09/25) Created template version A with initial sketch materials
   2. (10/02) Refine the proposal with defined components, tasks, interaction details and schedule 
+  3. (10/09) Update progress for first week 1/4.
+  4. (10/17) Update progress for second week 2/4.
 
 ## Data
 
