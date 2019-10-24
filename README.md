@@ -94,30 +94,37 @@ In the following table, I classify and schedule the tasks into several component
 |:---:|:------:|:------|---:|---:|:-----|
 |C1|1|Map - Already show US map by states|0.5|**D0.5wk1**|**Done**|
 |C1|2|Display a value using choropleths map|0.5|**D0.5wk1**|**Done**|
-|C1|3|Show color bar and legend on map|0.5|0.5|No|
+|C1|3|Show color bar and legend on map|0.5|**T0.5(P0.3wk3)|Partial|
 |C2|1|Line chart by years, show correct legend|0.5|**D1.0wk2**|**Done**|
 |C2|2|Bar chart to show top 10 states|0.5|**T0.5(P0.3wk1)(P0.5wk2)**|**Done**|
 |C2|3|Line chart to show trend for top 10 states|0.5|**D0.5wk2**|**Done**|
-|**C2**|**-**|**Total for C1 and C2**|**3.0**|**T3.0(P1.3wk1)**|**NA**|
-|C3|1|Data loading with multiple files|0.5|**D0.2wk1**|**Done**|
-|C3|2|Derived data calculation like ratio|0.5|0.5|No|
+|**C12**|**-**|**Total for C1 and C2**|**3.0**|**R0.4(P1.3wk1)(P1.0wk2)(P0.3wk3)**|**NA**|
+|C3|1|Data loading with multiple files|0.2|**D0.2wk1**|**Done**|
+|C3|2|Derived data calculation like ratio|0.0|**0.0**|**Dropped**|
 |C3|3|Data filtering based on all views|1.5|**D1.5wk2**|**Done**|
-|C3|4|Filtering top 10 states data|1.5|**T1.5(P0.3wk1)(P0.7wk2)|Yes,Partial|
-|**C3**|**-**|**Total for C3**|**4.0**|**T3.7(P0.5wk1)**|**NA**|
+|C3|4|Filtering top 10 states data|1.5|**T1.5(P0.3wk1)(P0.7wk2)(P0.2wk3)**|Yes,Partial|
+|**C3**|**-**|**Total for C3**|**3.2**|**R0.3(P0.5wk1)(P2.2wk2)(P0.2wk3)**|**NA**|
 |**C4**|**-**|**Put multiple (4) views together using D3**|**2.0**|**D1.5wk1**|**Done**|
-|C5|1|From chart, select a year, update map|0.5|0.5|No|
-|C5|2|From map, select a state, update chart|0.5|0.5|No|
+|C5|1|From chart, select a year, update map|0.5|**D0.5wk3**|**Done**|
+|C5|2|From map, select a state, update chart|0.5|**D0.5wk3**|**Done**|
 |C5|3|Add a menu, select different data field|0.5|**T0.5(P0.2wk1)(P0.5wk2)**|**Done**|
-|C5|4|Add a button, reset data to all years|0.5|0.5|No|
-|C5|5|From bar chart, select a state, update map|0.5|0.5|No|
-|C5|6|From bar chart, deselect any state, show top 10 states|0.5|0.5|No|
-|C5|7|From trend chart, select a year, update map for top 10 states and give year|1.5|1.5|Yes|
-|C5|8|From trend chart, deselect any year, update map for top 10 states for all years|1.5|1.5|Yes|
-|C5|9|Show tooltip when mouse hover lines, bars, or state on maps|1.0|1.0|No|
-|**C5**|**-**|**Total for C5**|**7.0**|**T7.0(P0.2wk1)**|**NA**|
+|C5|4|Add a button, reset data to all years|0.5|**D0.5wk3**|**Done**|
+|C5|5|From bar chart, select a state, update map|0.5|**D0.5wk3**|**Done**|
+|C5|6|From bar chart, deselect any state, show top 10 states|0.5|**D0.5wk3**|**Done**|
+|C5|7|From trend chart, select a year, update map for top 10 states and give year|1.0|**T1.0(P0.5wk3)**|Partial|
+|C5|8|From trend chart, deselect any year, update map for top 10 states for all years|1.0|**T1.0(P0.5wk3)**|Partial|
+|C5|9|Show tooltip when mouse hover lines, bars, or state on maps|1.0|**D1.0wk3**|**Done**|
+|**C5**|**-**|**Total for C5**|**6.0**|**R1.0(P0.2wk1)(P4.5wk3)**|**NA**|
 |C6|1|There are some more interactions can be defined, or blocked in this project|0.0|0.0|No|
 |C6|2|Expand one plot to the whole canvas and hide the rest. And toggle to bring back original views. |0.0|0.0|No|
 |C6|3|The flu season is centered in winter, so it would be really nice if the cycle starts from the week 40 and ends on week 39 in the next year. Should be easy to shift the data but need to worry about the legend changes which may not be trivial to do. So far the plot matches calendar year which is also useful.|0.0|0.0|No|
-|**C7**|**-**|**Total for all**|**16.0**|**Remaining:8.0(3.5+0.8wk1)(4.7wk2)Total:17.0**|**NA**|
+|C7|1|Used a different project for US map to show Hawaii and Alaska|0.1|**D0.1wk3**|**Done**|
+|C7|2|Added a Top N States menu to determine number of top states to show because 10 is too many|0.2|**D0.2wk3**|**Done**|
+|C7|3|Need to change circle legends to line shape for line charts|0.2|0.2|No|
+|C7|4|Highlight a state by its border color, not using opacity|0.2|0.2|No|
+|C7|5|Choose a better color combination for lines and bar charts|0.2|0.2|No|
+|C7|6|Bug fix: When click on the map, the state must be in the top list. Otherwise, the selection shouldn’t change.|0.3|0.3|No|
+|**C7**|**-**|**Total for C7**|**1.2**|**T1.2(P0.3wk3)**|**NA**|
+|**C8**|**-**|**Total for all**|**15.4**|**Remaining:3.0(3.5wk1)(4.7wk2)(5.3wk2)Total:13.5**|**NA**|
 
 
