@@ -6,9 +6,10 @@ A project proposal for US Flu Surveillance Data Review.
 #### History
   1. (09/25) Created template version A with initial sketch materials
   2. (10/02) Refine the proposal with defined components, tasks, interaction details and schedule 
-  3. (10/09) Update progress for first week 1/4.
-  4. (10/17) Update progress for second week 2/4.
-
+  3. (10/09) Update progress for first week at 1/4.
+  4. (10/17) Update progress for second week at 2/4.
+  5. (10/23) Update progress for third week at 3/4.
+  
 ## Data
 
 The data I propose to visualize for this project is a multi-year flu patient visits data collected by healthcare providers across the United States, who participated in the Influenza-like Illness Surveillance Network (ILINet). 
