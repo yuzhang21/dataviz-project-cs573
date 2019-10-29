@@ -9,6 +9,7 @@ A project proposal for US Flu Surveillance Data Review.
   3. (10/09) Update progress for first week at 1/4.
   4. (10/17) Update progress for second week at 2/4.
   5. (10/23) Update progress for third week at 3/4.
+  6. (10/29) Update progress for third week at 4/4.
   
 ## Data
 
@@ -91,20 +92,29 @@ In the following table, I classify and schedule the tasks into several component
  5. Interactions among views  (Wk 3,4: 3+4=7 days) -- Will do mostly in Week 3 and polish in Week 4
  6. Future or additional improvements (N/A)
 
+Later on each week, I captured the activities on each item and added the progress information on each week. 
+Some items are done in one shot, but a few challenging ones have changes made for multiple weeks. In the end,
+all tasks are done, including a new section of tasks added in the last week's polishing stage. 
+The total estimation of time extended from 16.0 days to 19.5 days, and the actual execution time takes about
+17.5 days. There is a small discrepancy when calculated by weekly progress. I didn't try to fix it because the
+first a few weeks calculation maybe recorded a bit differently. Overall, the following table demonstrated a 
+relatively accurate plan estimation and execution time line, with tasks priority adjusted along the way. 
+
+
 |Cat. No.|Task No.|Action Item|Estd. Time (day)|Actu. Time (day)|Whether the task is challenging and how|
 |:---:|:------:|:------|---:|---:|:-----|
 |C1|1|Map - Already show US map by states|0.5|**D0.5wk1**|**Done**|
 |C1|2|Display a value using choropleths map|0.5|**D0.5wk1**|**Done**|
-|C1|3|Show color bar and legend on map|0.5|**T0.5(P0.3wk3)|Partial|
+|C1|3|Show color bar and legend on map|0.5|**D1.5(P0.3wk3)(P1.2wk4)**|Yes,**Done**|
 |C2|1|Line chart by years, show correct legend|0.5|**D1.0wk2**|**Done**|
-|C2|2|Bar chart to show top 10 states|0.5|**T0.5(P0.3wk1)(P0.5wk2)**|**Done**|
+|C2|2|Bar chart to show top 10 states|0.5|**D0.8(P0.3wk1)(P0.5wk2)**|Yes,**Done**|
 |C2|3|Line chart to show trend for top 10 states|0.5|**D0.5wk2**|**Done**|
-|**C12**|**-**|**Total for C1 and C2**|**3.0**|**R0.4(P1.3wk1)(P1.0wk2)(P0.3wk3)**|**NA**|
+|**C12**|**-**|**Total for C1 and C2**|**3.0**|**T4.8(P1.3wk1)(P2.0wk2)(P0.3wk3)(P1.2wk4)**|**NA**|
 |C3|1|Data loading with multiple files|0.2|**D0.2wk1**|**Done**|
 |C3|2|Derived data calculation like ratio|0.0|**0.0**|**Dropped**|
 |C3|3|Data filtering based on all views|1.5|**D1.5wk2**|**Done**|
-|C3|4|Filtering top 10 states data|1.5|**T1.5(P0.3wk1)(P0.7wk2)(P0.2wk3)**|Yes,Partial|
-|**C3**|**-**|**Total for C3**|**3.2**|**R0.3(P0.5wk1)(P2.2wk2)(P0.2wk3)**|**NA**|
+|C3|4|Filtering top 10 states data|1.5|**D2.0(P0.3wk1)(P0.7wk2)(P0.2wk3)(P0.8wk4)**|Yes,**Done**|
+|**C3**|**-**|**Total for C3**|**3.2**|**D3.7(P0.5wk1)(P2.2wk2)(P0.2wk3)(P0.8wk4)**|**NA**|
 |**C4**|**-**|**Put multiple (4) views together using D3**|**2.0**|**D1.5wk1**|**Done**|
 |C5|1|From chart, select a year, update map|0.5|**D0.5wk3**|**Done**|
 |C5|2|From map, select a state, update chart|0.5|**D0.5wk3**|**Done**|
@@ -112,20 +122,42 @@ In the following table, I classify and schedule the tasks into several component
 |C5|4|Add a button, reset data to all years|0.5|**D0.5wk3**|**Done**|
 |C5|5|From bar chart, select a state, update map|0.5|**D0.5wk3**|**Done**|
 |C5|6|From bar chart, deselect any state, show top 10 states|0.5|**D0.5wk3**|**Done**|
-|C5|7|From trend chart, select a year, update map for top 10 states and give year|1.0|**T1.0(P0.5wk3)**|Partial|
-|C5|8|From trend chart, deselect any year, update map for top 10 states for all years|1.0|**T1.0(P0.5wk3)**|Partial|
+|C5|7|From trend chart, select a year, update map for top 10 states and give year|1.0|**D1.0(P0.5wk3)(P0.5wk4)**|**Done**|
+|C5|8|From trend chart, deselect any year, update map for top 10 states for all years|1.0|**D1.0(P0.5wk3)(P0.5wk4)**|**Done**|
 |C5|9|Show tooltip when mouse hover lines, bars, or state on maps|1.0|**D1.0wk3**|**Done**|
-|**C5**|**-**|**Total for C5**|**6.0**|**R1.0(P0.2wk1)(P4.5wk3)**|**NA**|
+|**C5**|**-**|**Total for C5**|**6.0**|**T5.7(P0.2wk1)(P4.5wk3)(P1.0wk4)**|**NA**|
 |C6|1|There are some more interactions can be defined, or blocked in this project|0.0|0.0|No|
 |C6|2|Expand one plot to the whole canvas and hide the rest. And toggle to bring back original views. |0.0|0.0|No|
 |C6|3|The flu season is centered in winter, so it would be really nice if the cycle starts from the week 40 and ends on week 39 in the next year. Should be easy to shift the data but need to worry about the legend changes which may not be trivial to do. So far the plot matches calendar year which is also useful.|0.0|0.0|No|
 |C7|1|Used a different project for US map to show Hawaii and Alaska|0.1|**D0.1wk3**|**Done**|
 |C7|2|Added a Top N States menu to determine number of top states to show because 10 is too many|0.2|**D0.2wk3**|**Done**|
-|C7|3|Need to change circle legends to line shape for line charts|0.2|0.2|No|
-|C7|4|Highlight a state by its border color, not using opacity|0.2|0.2|No|
-|C7|5|Choose a better color combination for lines and bar charts|0.2|0.2|No|
-|C7|6|Bug fix: When click on the map, the state must be in the top list. Otherwise, the selection shouldn’t change.|0.3|0.3|No|
-|**C7**|**-**|**Total for C7**|**1.2**|**T1.2(P0.3wk3)**|**NA**|
-|**C8**|**-**|**Total for all**|**15.4**|**Remaining:3.0(3.5wk1)(4.7wk2)(5.3wk2)Total:13.5**|**NA**|
+|C7|3|Need to change circle legends to line shape for line charts|0.2|**D0.2wk4**|**Done**|
+|C7|4|Highlight a state by its border color, not using opacity|0.2|**D0.2wk4**|**Done**|
+|C7|5|Choose a better color combination for lines and bar charts|0.2|**D0.3wk4**|**Done**|
+|C7|6|Bug fix: When click or hover on the map, the state must be in the top list. Otherwise, no change.|0.3|**D0.5wk4**|**Done**|
+|C7|7|Bug fix: Highlight bar chart malfunctions due to render order.|0.3|**D0.3wk4**|**Done**|
+|**C7**|**-**|**Total for C7**|**1.5**|**T1.8(P0.3wk3)(P1.5wk4)**|**NA**|
+|**C8**|**-**|**Total for all**|**19.5**|**Total Time:17.5(3.5wk1)(4.7wk2)(5.3wk3)(4.5wk4)Total by week:18.0**|**NA**|
 
+## Major Visualization Output Of The Project
+
+
+## Future Improvement On The Project
+Some items from the above schedule table and a few more task worth to do are listed below:
+1. There are some more interactions can be defined, or blocked in this project.
+The overall interactions among different visual components are satisfactory. They are pretty consistant and no major flaws as concerned before. 
+
+2. Expand one plot to the whole canvas and hide the rest. And toggle to bring back original views. 
+This is worth to do because 1/4 of the screen sometimes not enough to see details, especially for the map. But in single view modes, the interactions are not visible. There maybe some logic need to be adjusted accordingly. 
+
+3. The flu season is centered in winter, so it would be really nice if the cycle starts from the week 40 and ends on week 39 in the next year. Should be easy to shift the data but need to worry about the legend changes which may not be trivial to do. So far the plot matches calendar year which is also useful.
+It is nice to be able to horizontally shifting the cyclic data. The effects may not be much different. 
+
+4. Derived data calculation like ratio
+We may want to add additional information like patient to healthcare provider ratio that can be derived from the original data. That will involve some menu changes. 
+
+5. Add Pan and Zoom capability in the map view
+Because the map is relatively small, allow zoom and pan can allow user to review more details. And it can be reset together by the Reset button. 
+
+(The End)
 
