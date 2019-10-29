@@ -1,21 +1,21 @@
 
 # Data Visualization Project (CS573)
-**Refined dataviz-project-templateA-proposal**
-A project proposal for US Flu Surveillance Data Review. 
+A completed project starting from a proposal to finish for US Flu Surveillance Data Review. 
 
-#### History
+#### Revision History
   1. (09/25) Created template version A with initial sketch materials
   2. (10/02) Refine the proposal with defined components, tasks, interaction details and schedule 
   3. (10/09) Update progress for first week at 1/4.
   4. (10/17) Update progress for second week at 2/4.
   5. (10/23) Update progress for third week at 3/4.
   6. (10/29) Update progress for third week at 4/4.
+  7. (10/30) Complete the project results update and future discussions. 
   
 ## Data
 
-The data I propose to visualize for this project is a multi-year flu patient visits data collected by healthcare providers across the United States, who participated in the Influenza-like Illness Surveillance Network (ILINet). 
+The data to visualize in this project is a multi-year flu patient visits data collected by healthcare providers across the United States, who participated in the Influenza-like Illness Surveillance Network (ILINet). 
 [Weekly U.S. Influenza Surveillance Reports](https://www.cdc.gov/flu/weekly/index.htm#ILIMap) are generated from the ILINet Program, which presents an [interactive FluView visualization](https://gis.cdc.gov/grasp/fluview/fluportaldashboard.html) of the data. 
-In this proposal, I am going to present the data with more visualizations in order to answer the questions about the data better. 
+In this project, the data visualization is using multiple panels with interactive features to reveal more details about the data in order to answer the questions related to the data more intuitively and effectively. 
 
 ## Prototypes
 
@@ -81,23 +81,25 @@ If user move the mouse cursor and hover on one of the line, a tooltip will show 
  9. Show tooltip when mouse hover lines, bars, or state on maps
 
 ## Schedule of Deliverables
-In the following table, I classify and schedule the tasks into several components and steps. There are total 4 weeks left for the project. Assuming I can work 4 days per week, the total working days are 16. So I can roughly distribute the 5 categories into 4 weeks as the following: 
- 1. Choropleths map and legend, color choice (Wk 1)**(Done by Wk 2)**
- 2. Other charts (Wk 1: 3 days)**(Done by Wk 2)**
+In the following table, I classify and schedule the tasks into several components and steps. There are total 4 weeks to complete the project. Assuming I assumed a 4-days per week workload, for the total of 16 days. So all tasks were roughly distributed into 5 categories into 4 weeks (see below). The 6th session is for future work. Later at the last week of the execution of the plan, I added 
+an additional section to track all small tasks to improve the fix implemented features, which extended the total estimation a little bit. But the execution time is less and makes up some of the differences so that the project is completed on time.  
+ 1. Choropleths map and legend, color choice (Planned: Wk 1) **(Done by Wk 2)**
+ 2. Other charts (Wk 1: 3 days) **(Done by Wk 2)**
   + a. Different year line chart
   + b. Top 10 bar chart for aggregation
   + c. Top 10 line chart for trend
- 3. Data Preparation, Filtering, Calculation, Grouping (Wk 2,3: 3+1=4 days)**(Done by Wk 2)**
- 4. Multi-view plot assembly  (Wk 1,2: 1+1=2 days)**(Done by Wk 1)**
- 5. Interactions among views  (Wk 3,4: 3+4=7 days) -- Will do mostly in Week 3 and polish in Week 4
+ 3. Data Preparation, Filtering, Calculation, Grouping (Wk 2,3: 3+1=4 days) **(Done by Wk 2)**
+ 4. Multi-view plot assembly  (Wk 1,2: 1+1=2 days) **(Done by Wk 1)**
+ 5. Interactions among views  (Wk 3,4: 3+4=7 days) **(Done by Wk 4)**
  6. Future or additional improvements (N/A)
-
-Later on each week, I captured the activities on each item and added the progress information on each week. 
+ 7. Additional improvement and bug fixes (Wk 4: 1.5 days) **(Done by Wk 4)**
+ 
+Based on the plan above, I captured the activities on each item and added the progress information by the end of each week. 
 Some items are done in one shot, but a few challenging ones have changes made for multiple weeks. In the end,
 all tasks are done, including a new section of tasks added in the last week's polishing stage. 
-The total estimation of time extended from 16.0 days to 19.5 days, and the actual execution time takes about
+The total estimation of time extended from 16.0 days to 19.5 days, and the actual execution time is about
 17.5 days. There is a small discrepancy when calculated by weekly progress. I didn't try to fix it because the
-first a few weeks calculation maybe recorded a bit differently. Overall, the following table demonstrated a 
+first a few weeks maybe record some calculations a bit differently. Overall, the following table demonstrated a 
 relatively accurate plan estimation and execution time line, with tasks priority adjusted along the way. 
 
 
@@ -140,6 +142,7 @@ relatively accurate plan estimation and execution time line, with tasks priority
 |**C8**|**-**|**Total for all**|**19.5**|**Total Time:17.5(3.5wk1)(4.7wk2)(5.3wk3)(4.5wk4)Total by week:18.0**|**NA**|
 
 ## Major Visualization Output Of The Project
+
 
 
 ## Future Improvement On The Project
