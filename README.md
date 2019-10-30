@@ -150,9 +150,26 @@ relatively accurate plan estimation and execution time line, with tasks priority
 ## Major Visualization Output Of The Project
 ![fourPanelView](https://user-images.githubusercontent.com/26355743/67904185-0747ba80-fb44-11e9-8459-f2a41f041e6f.jpg)
 
-The visualization is composed of 4 panels. The first line plot displays annual average patient visits percentage or other values from the dataset on weekly bases. It demonstrates the pattern for different years. 
+* **Four Panel View** The visualization is composed of 4 panels. The first line plot displays annual average patient visits percentage or other values from the dataset on weekly bases. It demonstrates the pattern for different years. 
 The second plot is a choropleths map shows the geographical distribution over the US including Alaska and Hawaii.
-The third plot is a bar chart shows the top 10 or N states. It gives the user more quatitative information and a list of top states by name. The leads to the fourth plot to show the yearly trending pattern of these states using a colorful line chart, using the same color scheme used by bar chart for different states. 
+The third plot is a bar chart shows the top 10 or N states. It gives the user more quatitative information and a list of top states by name. This leads to the fourth plot to show the yearly trending pattern of these states using a colorful line chart, using the same color scheme used by bar chart for different states. 
+
+![compareDifferentYear](https://user-images.githubusercontent.com/26355743/67905869-34e33280-fb49-11e9-8070-3e7cb619dc06.jpg)
+
+* **Different Year** The 4 panels of data visualization are internally connected. User can use mouse to hover and select objects to interact with them, and the views will be updated accordingly. This image demonstrates a state that user selected a year (2019) which is highlighted and then hover the mouse on year 2018. On the first chart, both years lines are highlighted and others are greyed out. It is easy to compare between them. The underline data used follows the hovered year (2018) because it needs to be updated with the mouse move. When the hover is removed, the data will fallback to year (2019) because it has been selected. Only by click Reset button, this selection will be removed, and data goes back to the original full data mode. 
+
+![oneYearStatesCompare](https://user-images.githubusercontent.com/26355743/67905906-517f6a80-fb49-11e9-853e-aae7beb3ffa5.jpg)
+
+* **Different State** This image demonstrates that the trending plot can use selection and hover to compare the trends of two states on the top N state list. First, the year 2018 has been selected, and then the state Texas has been selected. When mouse hovers on Alaska, both lines are show in solid colors while other states are grayed out. We can also notice that both states are highlighted in choropleths map with a white border, and their value levels show up in the legend color bar as two line-indicators. The map may need to be zoomed in order to see them clearly. 
+
+![dataSelection](https://user-images.githubusercontent.com/26355743/67905925-66f49480-fb49-11e9-8f46-3a0f2933fbbe.jpg)
+
+* **Different Data Fields** The top menu "Choose a data field" allows the user to select different fields from the dataset. Their meaning will be interpolated accordingly. 
+
+![topNSelection](https://user-images.githubusercontent.com/26355743/67905952-7f64af00-fb49-11e9-9fbc-bf788f6b4db2.jpg)
+
+* **Choose Top N States** Because the 10 states and lines in both bar chart and line chart may seems a little bit busy. This menu allows the user to change the number of states to their desired numbers. 
+
 
 [VizHub link](https://beta.vizhub.com/yuzhang21/7899662dd21243feb4991afc79eefdab)
 
