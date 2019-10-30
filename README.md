@@ -13,7 +13,7 @@ A completed project starting from a proposal to finish for US Flu Surveillance D
   
 ## Data
 
-The data [Weekly U.S. Flu Surveillance dataset](https://gist.github.com/yuzhang21/afd1af3a28631a12dfd8eee37520309f) to visualize in this project is a multi-year flu patient visits data collected by healthcare providers across the United States, who participated in the Influenza-like Illness Surveillance Network (ILINet). 
+The data [(Weekly U.S. Flu Surveillance dataset)](https://gist.github.com/yuzhang21/afd1af3a28631a12dfd8eee37520309f) to visualize in this project is a multi-year flu patient visits data collected by healthcare providers across the United States, who participated in the Influenza-like Illness Surveillance Network (ILINet). 
 [Weekly U.S. Influenza Surveillance Reports](https://www.cdc.gov/flu/weekly/index.htm#ILIMap) are generated from the ILINet Program, which presents an [interactive FluView visualization](https://gis.cdc.gov/grasp/fluview/fluportaldashboard.html) of the data. 
 In this project, the data visualization is using multiple panels with interactive features to reveal more details about the data in order to answer the questions related to the data more intuitively and effectively. 
 
