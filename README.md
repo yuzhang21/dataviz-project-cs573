@@ -69,7 +69,7 @@ The 3rd page proposes in the last plot to replace bar chart with line chart to d
 * Add legends on bar charts and maps and need to highlight them. 
 
 ## Interaction List
-In this project, the following interactions with user are proposed. Only the first one is explained in details. Others are similar and relatively straight forward to understand. It is critical to maintain the consistency among them, therefore, the implementation could be more complex than the list below. 
+In this project, the following interactions are implemented. Only the first one is explained in details. Others are similar and relatively straight forward to understand. It is critical to maintain the consistency among them. 
 
  1. From chart, hover or select a year, update map and other charts
    + In time series chart, 5 lines with different colors are displayed indicating the average values on different year, i.e., 2015-2019.
@@ -85,6 +85,7 @@ If user move the mouse cursor and hover on one of the line, a tooltip will show 
  7. From map, hover or select a state, any year, but only for states belong to the top 10 states, same as 5
  8. Choose from Top N State menu to reduce the number of states in the bar chart and trend chart
  9. Show tooltip when mouse hover lines, bars, or state on maps, also including any legends if applicable
+
 
 ## Schedule of Deliverables
 In the following table, I classify and schedule the tasks into several components and steps. There are total 4 weeks to complete the project. I assumed a 4-days (about 4h per-day) per week workload, for the total of 16 days. So all tasks were roughly distributed into 5 categories into 4 weeks (see below). The 6th session is for future work. Later, at the last week of the execution of the plan, I added an additional section to track all small tasks to improve the fix implemented features, which extended the total estimation a little bit. However, the execution time is less and makes up some of the differences so that the project is completed on time.  
@@ -156,25 +157,32 @@ The third plot is a bar chart shows the top 10 or N states. It gives the user mo
 
 ![compareDifferentYear](https://user-images.githubusercontent.com/26355743/67905869-34e33280-fb49-11e9-8070-3e7cb619dc06.jpg)
 
-* **Different Year** The 4 panels of data visualization are internally connected. User can use mouse to hover and select objects to interact with them, and the views will be updated accordingly. This image demonstrates a state that user selected a year (2019) which is highlighted and then hover the mouse on year 2018. On the first chart, both years lines are highlighted and others are greyed out. It is easy to compare between them. The underline data used follows the hovered year (2018) because it needs to be updated with the mouse move. When the hover is removed, the data will fallback to year (2019) because it has been selected. Only by click Reset button, this selection will be removed, and data goes back to the original full data mode. 
+* **Different Year** 
+The 4 panels of data visualization are internally connected. User can use mouse to hover and select objects to interact with them, and the views will be updated accordingly. This image demonstrates a state that user selected a year (2019) which is highlighted and then hover the mouse on year 2018. On the first chart, both years lines are highlighted and others are greyed out. It is easy to compare between them. The underline data used follows the hovered year (2018) because it needs to be updated with the mouse move. When the hover is removed, the data will fallback to year (2019) because it has been selected. Only by click Reset button, this selection will be removed, and data goes back to the original full data mode. 
 
 ![oneYearStatesCompare](https://user-images.githubusercontent.com/26355743/67905906-517f6a80-fb49-11e9-853e-aae7beb3ffa5.jpg)
 
-* **Different State** This image demonstrates that the trending plot can use selection and hover to compare the trends of two states on the top N state list. First, the year 2018 has been selected, and then the state Texas has been selected. When mouse hovers on Alaska, both lines are show in solid colors while other states are grayed out. We can also notice that both states are highlighted in choropleths map with a white border, and their value levels show up in the legend color bar as two line-indicators. The map may need to be zoomed in order to see them clearly. 
+* **Different State** 
+This image demonstrates that the trending plot can use selection and hover to compare the trends of two states on the top N state list. First, the year 2018 has been selected, and then the state Texas has been selected. When mouse hovers on Alaska, both lines are show in solid colors while other states are grayed out. We can also notice that both states are highlighted in choropleths map with a white border, and their value levels show up in the legend color bar as two line-indicators. The map may need to be zoomed in order to see them clearly. 
 
 ![dataSelection](https://user-images.githubusercontent.com/26355743/67905925-66f49480-fb49-11e9-8f46-3a0f2933fbbe.jpg)
 
-* **Different Data Fields** The top menu "Choose a data field" allows the user to select different fields from the dataset. Their meaning will be interpolated accordingly. 
+* **Different Data Fields** 
+The top menu "Choose a data field" allows the user to select different fields from the dataset. Their meaning will be interpolated accordingly. 
 
 ![topNSelection](https://user-images.githubusercontent.com/26355743/67905952-7f64af00-fb49-11e9-9fbc-bf788f6b4db2.jpg)
 
-* **Choose Top N States** Because the 10 states and lines in both bar chart and line chart may seems a little bit busy. This menu allows the user to change the number of states to their desired numbers. 
+* **Choose Top N States** 
+Because the 10 states and lines in both bar chart and line chart may seems a little bit busy. This menu allows the user to change the number of states to their desired numbers. 
 
 
 [VizHub link](https://beta.vizhub.com/yuzhang21/7899662dd21243feb4991afc79eefdab)
 
+
 ## Future Improvement On The Project
-Some items from the above schedule table and a few more task worth to do are listed below:
+
+The future items including some items from the above schedule table. And a few more tasks that worth to consider are listed below:
+
 1. There are some more interactions can be defined, or blocked in this project.
 The overall interactions among different visual components are satisfactory. They are consistent and no major flaws as concerned before. For time series data, it might be nice if we can add animation to automatically cycle through the data by time. 
 
