@@ -148,6 +148,10 @@ relatively accurate plan estimation and execution time line, with tasks priority
 |**C8**|**-**|**Total for all**|**19.5**|**Total Time:17.5(3.5wk1)(4.7wk2)(5.3wk3)(4.5wk4)Total by week:18.0**|**NA**|
 
 ## Major Visualization Output Of The Project
+[Four Panel View](https://github.com/yuzhang21/dataviz-project-templateA-proposal/issues/4)
+The visualization is composed of 4 panels. The first line plot displays annual average patient visits percentage or other values from the dataset on weekly bases. It demonstrates the pattern for different years. 
+The second plot is a choropleths map shows the geographical distribution over the US including Alaska and Hawaii.
+The third plot is a bar chart shows the top 10 or N states. It gives the user more quatitative information and a list of top states by name. The leads to the fourth plot to show the yearly trending pattern of these states using a colorful line chart, using the same color scheme used by bar chart for different states. 
 
 [VizHub link](https://beta.vizhub.com/yuzhang21/7899662dd21243feb4991afc79eefdab)
 
