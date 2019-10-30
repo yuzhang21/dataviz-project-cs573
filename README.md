@@ -58,7 +58,7 @@ The 3rd page proposes in the last plot to replace bar chart with line chart to d
 ## Open Questions and Answers Learned
 
 ### Technical Issues Addressed or Decisions Made
-* During the course I learned a many useful tools about visualization techniques based on JavaScripts. The vega-list-api is a simple and effective high-level interface that yield nice results. But the lack of examples and documentation up-to-date make it a less faviorable choice. 
+* During the course I learned a many useful tools about visualization techniques based on JavaScripts. The vega-list-api is a simple and effective high-level interface that yield nice results. But the lack of examples and documentation up-to-date make it a less favorable choice. 
 * D3.js and React with Svg seems to be powerful tools that can achieve any visualization tasks. I used them during the course and built more confidence to implement my project using them. In my plan, I want to visualize the data on the map and other different plots combined. The D3.js and React framework allow me to achieve more complex logics and calculate the derived data easily to be visualized. 
 * So my decision to conduct my project is to use D3.js and React and void to use vega-lite and vega-lite-api given they may not be compatible or integrated easily.  
 
@@ -73,8 +73,8 @@ In this project, the following interactions with user are proposed. Only the fir
 
  1. From chart, hover or select a year, update map and other charts
    + In time series chart, 5 lines with different colors are displayed indicating the average values on different year, i.e., 2015-2019.
-If user move the mouse cursor and hover on one of the line, a tooltip will show up to display the year on the line. At the same time, the data for this perticular year is selected and used in the other visualization plots. When the mouse hover is removed, the data used will return to the full dataset. 
-   + When user click on the line, or its legend, it indicates a perticular year is selected over the data of all years. Even when the mouse hover is removed, only the data from that given year is used. The map will display a different color for different states to reflect the average values calculated for each state. Because of the limited space, only the top 10 states are selected to show in the bar chart and trending line chart. Their data are based on the year of selection. 
+If user move the mouse cursor and hover on one of the line, a tooltip will show up to display the year on the line. At the same time, the data for this particular year is selected and used in the other visualization plots. When the mouse hover is removed, the data used will return to the full dataset. 
+   + When user click on the line, or its legend, it indicates a particular year is selected over the data of all years. Even when the mouse hover is removed, only the data from that given year is used. The map will display a different color for different states to reflect the average values calculated for each state. Because of the limited space, only the top 10 states are selected to show in the bar chart and trending line chart. Their data are based on the year of selection. 
    + To remove the selection, click Reset button. 
    + So when year's hover and selection are changing, the data will be recalculated and the bar chart will be updated accordingly. Since the top 10 states are changed, their trend plot will be updated accordingly as well.  
  2. From map, hover or select a state, update chart
@@ -87,8 +87,8 @@ If user move the mouse cursor and hover on one of the line, a tooltip will show 
  9. Show tooltip when mouse hover lines, bars, or state on maps, also including any legends if applicable
 
 ## Schedule of Deliverables
-In the following table, I classify and schedule the tasks into several components and steps. There are total 4 weeks to complete the project. I assumed a 4-days (about 4h per-day) per week workload, for the total of 16 days. So all tasks were roughly distributed into 5 categories into 4 weeks (see below). The 6th session is for future work. Later, at the last week of the execution of the plan, I added 
-an additional section to track all small tasks to improve the fix implemented features, which extended the total estimation a little bit. But the execution time is less and makes up some of the differences so that the project is completed on time.  
+In the following table, I classify and schedule the tasks into several components and steps. There are total 4 weeks to complete the project. I assumed a 4-days (about 4h per-day) per week workload, for the total of 16 days. So all tasks were roughly distributed into 5 categories into 4 weeks (see below). The 6th session is for future work. Later, at the last week of the execution of the plan, I added an additional section to track all small tasks to improve the fix implemented features, which extended the total estimation a little bit. However, the execution time is less and makes up some of the differences so that the project is completed on time.  
+
  1. Choropleths map and legend, color choice (Planned: Wk 1) **(Done by Wk 2)**
  2. Other charts (Wk 1: 3 days) **(Done by Wk 2)**
   + a. Different year line chart
@@ -152,7 +152,7 @@ relatively accurate plan estimation and execution time line, with tasks priority
 
 * **Four Panel View** The visualization is composed of 4 panels. The first line plot displays annual average patient visits percentage or other values from the dataset on weekly bases. It demonstrates the pattern for different years. 
 The second plot is a choropleths map shows the geographical distribution over the US including Alaska and Hawaii.
-The third plot is a bar chart shows the top 10 or N states. It gives the user more quatitative information and a list of top states by name. This leads to the fourth plot to show the yearly trending pattern of these states using a colorful line chart, using the same color scheme used by bar chart for different states. 
+The third plot is a bar chart shows the top 10 or N states. It gives the user more quantitative information and a list of top states by name. This leads to the fourth plot to show the yearly trending pattern of these states using a colorful line chart, using the same color scheme used by bar chart for different states. 
 
 ![compareDifferentYear](https://user-images.githubusercontent.com/26355743/67905869-34e33280-fb49-11e9-8070-3e7cb619dc06.jpg)
 
@@ -176,7 +176,7 @@ The third plot is a bar chart shows the top 10 or N states. It gives the user mo
 ## Future Improvement On The Project
 Some items from the above schedule table and a few more task worth to do are listed below:
 1. There are some more interactions can be defined, or blocked in this project.
-The overall interactions among different visual components are satisfactory. They are pretty consistant and no major flaws as concerned before. For time series data, it might be nice if we can add animation to automatically cycle through the data by time. 
+The overall interactions among different visual components are satisfactory. They are consistent and no major flaws as concerned before. For time series data, it might be nice if we can add animation to automatically cycle through the data by time. 
 
 2. Expand one plot to the whole canvas and hide the rest. And toggle to bring back original views. 
 This is worth to do because 1/4 of the screen sometimes not enough to see details, especially for the map. But in single view modes, the interactions are not visible. There maybe some logic need to be adjusted accordingly. 
