@@ -143,12 +143,12 @@ relatively accurate plan estimation and execution time line, with tasks priority
 
 ## Major Visualization Output Of The Project
 
-
+[VizHub link](https://beta.vizhub.com/yuzhang21/7899662dd21243feb4991afc79eefdab)
 
 ## Future Improvement On The Project
 Some items from the above schedule table and a few more task worth to do are listed below:
 1. There are some more interactions can be defined, or blocked in this project.
-The overall interactions among different visual components are satisfactory. They are pretty consistant and no major flaws as concerned before. 
+The overall interactions among different visual components are satisfactory. They are pretty consistant and no major flaws as concerned before. For time series data, it might be nice if we can add animation to automatically cycle through the data by time. 
 
 2. Expand one plot to the whole canvas and hide the rest. And toggle to bring back original views. 
 This is worth to do because 1/4 of the screen sometimes not enough to see details, especially for the map. But in single view modes, the interactions are not visible. There maybe some logic need to be adjusted accordingly. 
